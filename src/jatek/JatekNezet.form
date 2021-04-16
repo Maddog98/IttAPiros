@@ -35,6 +35,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Ment&#xe9;s"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MiMentesActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="MiBetoltes">
               <Properties>
@@ -125,11 +128,17 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="1. Poh&#xe1;r"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn1PoharActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Btn2Pohar">
       <Properties>
         <Property name="text" type="java.lang.String" value="2. Poh&#xe1;r"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn2PoharActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Btn3Pohar">
       <Properties>
@@ -148,9 +157,6 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="&#xda;j helyre k&#xe9;rem a goly&#xf3;t"/>
       </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CbUjActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
